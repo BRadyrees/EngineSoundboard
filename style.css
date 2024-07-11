@@ -1,8 +1,17 @@
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates 4 columns each with equal width */
+    grid-template-columns: 1fr; /* Creates 3 columns each with equal width */
     gap: 10px; /* Adjust the gap between grid items */
     margin-top: 20px;
+}
+
+
+/* Media query for smaller screens */
+@media (min-width: 1000px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); /* Creates 3 columns each with equal width */
+    }
 }
   
 .grid-item {
@@ -74,15 +83,13 @@ body {
 
 #space
     {
-        position: absolute;
+        position: relative;
         text-align: center;
         display: block;
         font-size: 25px;
         border-radius: 5px;
         background-color: hsl(165, 19%, 40%) ;
-        align-items: center;
         margin: auto;
-        top: 15%;
-        right: 5%;
+        width: fit-content;
     
     }
