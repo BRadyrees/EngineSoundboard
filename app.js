@@ -120,7 +120,102 @@ escalade.addEventListener('click', function () {
     audio.src = 'mom.mp3';
     audio.play();
 });
-
+var c8 = document.getElementById('c8')
+c8.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'c8.mp3';
+    audio.play();
+});
+var rs6 = document.getElementById('rs6')
+rs6.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'rs6.mp3';
+    audio.play();
+});
+var huayra = document.getElementById('huayra')
+huayra.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'huayra.mp3';
+    audio.play();
+});
+var zonda = document.getElementById('zonda')
+zonda.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'zonda.mp3';
+    audio.play();
+});
+var gt500 = document.getElementById('gt500')
+gt500.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'gt500.mp3';
+    audio.play();
+});
+var db12 = document.getElementById('db12')
+db12.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'db12.mp3';
+    audio.play();
+});
+var chiron = document.getElementById('chiron')
+chiron.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'chiron.mp3';
+    audio.play();
+});
+var gto = document.getElementById('gto')
+gto.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'gto.mp3';
+    audio.play();
+});
+var huracan = document.getElementById('huracan')
+huracan.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'huracan.mp3';
+    audio.play();
+});
+var aventador = document.getElementById('aventador')
+db12.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'aventador.mp3';
+    audio.play();
+});
+var urus = document.getElementById('urus')
+urus.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'urus.mp3';
+    audio.play();
+});
+var viper = document.getElementById('viper')
+viper.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'viper.mp3';
+    audio.play();
+});
+var p1 = document.getElementById('p1')
+p1.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'p1.mp3';
+    audio.play();
+});
+var ttrs = document.getElementById('ttrs')
+ttrs.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'ttrs.mp3';
+    audio.play();
+});
+var f = document.getElementById('f')
+f.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'f.mp3';
+    audio.play();
+});
+var rx7 = document.getElementById('rx7')
+rx7.addEventListener('click', function () {
+    console.log('clicked');
+    audio.src = 'rx7.mp3';
+    audio.play();
+});
 
 var search = document.getElementById('search')
 search.addEventListener('input', function() {
